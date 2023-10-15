@@ -7,5 +7,6 @@ export default defineConfig({
   base: '/bank-app/',
   build: {
     assetsDir: 'assets',
+    chunkSizeWarningLimit: 1000 * 1024,
   },
 })
