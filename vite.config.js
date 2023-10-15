@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/bank-app/',
   build: {
-    assetsDir: 'assets',
-    chunkSizeWarningLimit: 1000 * 1024,
+    assetsDir: 'assets'
   },
 })
